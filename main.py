@@ -24,7 +24,7 @@ def get_captions(video_url):
 
 
 # Streamlit app
-st.title("Get YouTube Video Captions")
+st.title("📹Get YouTube Video Captions")
 st.write("Upload the URL of the video")
 
 video_url = st.text_input("Enter YouTube video URL")
